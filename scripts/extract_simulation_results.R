@@ -141,7 +141,7 @@ td_table <- left_join(
   ) %>%
   mutate(
     row_in_brouwer_2019.csv = record_id+1,
-    time_to_discovery = time_to_discovery*100) %>%
+    time_to_discoovery = time_to_discovery*100) %>%
   select(-record_id,
          -n_papers_screened)
 
@@ -196,7 +196,7 @@ recall_plot + # adding more ticks to the x-axis
 # print time to discovery table table (row numbers start at 1)
 td_table <- td_table %>%
   mutate(
-    time_to_discovery = round(time_to_discovery*100, 2),
+    time_to_discovery = round(time_to_discovery, 2),
     average_n_papers_to_discovery = round(average_n_papers_to_discovery, 2)) %>%
   rename(
     average_number_records_to_discovery = average_n_papers_to_discovery,
