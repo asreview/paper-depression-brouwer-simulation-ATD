@@ -112,7 +112,11 @@ metrics <- recall %>%
                       n_inclusions,
                       at = rrfat,
                       n_prior_inc = n_prior_included,
-                      n_prior_exc = n_prior_excluded)
+                      n_prior_exc = n_prior_excluded
+                      ),
+            recall_vals =  wss(iteration, n_inclusions, at = wssat, 
+                               n_prior_inc = 0,
+                               n_prior_exc = 0)$coords$x
 )
 
 # build metrics table
@@ -133,12 +137,13 @@ time_to_discovery <- td(recall, n_prior_included + n_prior_excluded)
 td_table <- left_join(
   time_to_discovery,
   dat %>% 
-    select(record_id, title)
+    select(record_id, title, key, search, doi)
   ) %>%
   mutate(
-    row = record_id+1,
+    row_in_brouwer_2019.csv = record_id+1,
     time_to_discovery = time_to_discovery*100) %>%
-  select(-record_id)
+  select(-record_id,
+         -n_papers_screened)
 
 ## ----plot recall curve-------------------------------------------------------------------------------------------
 recall_plot <- recall %>%
@@ -191,23 +196,36 @@ recall_plot + # adding more ticks to the x-axis
 # print time to discovery table table (row numbers start at 1)
 td_table <- td_table %>%
   mutate(
-    #row = record_id + 1,
-    time_to_discovery = time_to_discovery*100)
-
-
-
+    time_to_discovery = round(time_to_discovery*100, 2),
+    average_n_papers_to_discovery = round(average_n_papers_to_discovery, 2)) %>%
+  rename(
+    average_number_records_to_discovery = average_n_papers_to_discovery,
+    average_percentage_records_to_discovery = time_to_discovery) %>%
+  # change the order 
+  select(
+    row_in_brouwer_2019.csv,
+    title,
+    average_number_records_to_discovery,
+    average_percentage_records_to_discovery,
+    n_trials_discovered,
+    search,
+    key,
+    doi
+  )
 
 ## ----drop data---------------------------------------------------------------------------------------------------
 # RRF and WSS values
 # assign names to WSS and RRF metrics
 wssname <- glue("WSS@", wssat)
 rrfname <- glue("RRF@", rrfat)
+recallname <- glue("Recall@", wssat)
 
 write_csv(
   metrics %>%
   rename(
     {{wssname}} := wss_vals,
-    {{rrfname}} := rrf_vals
+    {{rrfname}} := rrf_vals,
+    {{recallname}} := recall_vals
     ), 
   file = glue("{results_dir}/wss_and_rrf_values.csv")
 )
