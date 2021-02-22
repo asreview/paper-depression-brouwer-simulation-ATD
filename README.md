@@ -1,7 +1,7 @@
 # Scripts for simulation study on depression data
 This repository contains the scripts for a simulation study performed on data from the systematic review by Brouwer et al. (2019).
 
-The simulation study has the following characteristics: 
+The simulation study has the following characteristics:
 
 - The number of runs is equal to the number of inclusions in the dataset;
 - Every run starts with 1 prior inclusion and 10 prior exclusions;
@@ -16,7 +16,7 @@ As well as the results of this simulation study:
 
 [ADD REFERENCE WITH DOI TO OUTPUT on https://osf.io/pb28m/]
 
-# Simulation study
+## Execute simulation study
 To reproduce the results presented in this study, run the following in your
 terminal:
 
@@ -28,6 +28,7 @@ pip install requirements.txt
 sh run_all.sh.sh
 ```
 
+## Extract results 
 First, install the required R-packages by executing the
 following in your CLI: `Rscript scripts/install.R`.
 If you run into any errors, open the `install.R` file and try to install
@@ -37,11 +38,11 @@ Next, you can extract the results from the simulation output by executing the
 following in your CLI:
 
 ```
-Rscript extract_simulation_results.R
+Rscript scripts/extract_simulation_results.R
 ```
 
-The output consists of
-- All inclusions in the dataset, ordered by their time to discovery - the `time_to_discovery_all_inclusions.csv` file. The column *record_id* corresponds to the position of the inclusion in the original dataset. Note that the position starts at 0;
+The output (in the folder `output/brouwer_2019`) consists of
+- All inclusions in the dataset, ordered by their time to discovery - the `time_to_discovery.csv` file. The column *row* corresponds to the position of the inclusion in the original dataset. Note that the position starts at 1;
 - A table with WSS and RRF values for every run - the `wss_and_rrf_values.csv` file;
 - A plot with recall curves for all runs of this simulation study - the `recall.png` file.
 

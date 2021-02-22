@@ -15,6 +15,3 @@ devtools::install_github(
   "asreview/asreview-report", 
   ref = 'main',
   build = TRUE)
-
-
-

@@ -4,7 +4,7 @@ library(tidyverse)
 library(glue)
 library(knitr)
 library(asreview)
-
+library(readr)
 # datasets 
 datasets <- list.dirs(
   "output", recursive = FALSE, full.names = FALSE)
@@ -15,7 +15,7 @@ data_name <- datasets # render automatically from data.csv
 data_files <- glue("data/{datasets}.csv")
 
 # specify output directory simulations 
-output_dir <- glue("output/{datasets}/simulation/")
+output_dir <- glue("output/{datasets}/simulation")
 
 # specify output for creating wss and rrf csv
 results_dir <- glue("output/{data_name}")
@@ -45,7 +45,10 @@ n_prior_excluded <- 10
 n_prior <- n_prior_included + n_prior_excluded
 
 # load simulation results 
-recall <- read_recall_curves(output_dir, n_prior_included + n_prior_excluded)
+recall <- read_recall_curves(
+  output_dir, 
+  dataset = datasets,
+  n_prior = n_prior)
 
 # compute number of trials
 n_trials <- recall %>%
@@ -131,7 +134,11 @@ td_table <- left_join(
   time_to_discovery,
   dat %>% 
     select(record_id, title)
-  )
+  ) %>%
+  mutate(
+    row = record_id+1,
+    time_to_discovery = time_to_discovery*100) %>%
+  select(-record_id)
 
 ## ----plot recall curve-------------------------------------------------------------------------------------------
 recall_plot <- recall %>%
@@ -206,7 +213,7 @@ write_csv(
 )
 
 # time to discovery table
-write_csv(
+write_excel_csv(
   td_table,
   file = glue("{results_dir}/time_to_discovery.csv")
 )
