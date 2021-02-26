@@ -1,64 +1,64 @@
-﻿row_in_brouwer_2019.csv,title,average_number_records_to_discovery,average_percentage_records_to_discovery,n_trials_discovered,search,key,doi
-47171,Dysfunctional attitudes or extreme response style as predictors of depressive relapse and recurrence after mobile cognitive therapy for recurrent depression,59.85,0.1175,62,additional,3IACGM6K,10.1016/j.jad.2018.09.002
-12867,Cognitive Reactivity to Sad Mood Provocation and the Prediction of Depressive Relapse.,62.89,0.1235,62,cognitive,7SLKGQRP,NA
-14781,Cognitive reactivity versus dysfunctional cognitions and the prediction of relapse in recurrent major depressive disorder.,63.19,0.1241,62,cognitive,3IGAPUQP,10.4088/JCP.14m09268
-13242,"Cognitive reactivity, dysfunctional attitudes, and depressive relapse and recurrence in cognitive therapy responders.",65.56,0.1287,62,cognitive,ML6MVTAB,10.1016/j.brat.2012.01.008
-18034,"Mood induced cognitive and emotional reactivity, life stress, and the prediction of depressive relapse.",69.48,0.1364,62,cognitive,48ZCG8IC,10.1016/j.brat.2008.06.011
-18094,Differential cognitive response to a mood challenge following successful cognitive therapy or pharmacotherapy for unipolar depression.,69.85,0.1372,62,cognitive,BTCTYAEG,NA
-26606,"Dysfunctional Attitudes and Episodes of Major Depression: Predictive Validity and Temporal Stability in Never-Depressed, Depressed, and Recovered Women",75.11,0.1475,62,diathesis,GDLLVBIM,10.1037/0021-843X.116.3.475
-29498,Personality disorders predict relapse after remission from an episode of major depressive disorder: a 6-year prospective study.,80.32,0.1577,62,personality,UNA2JESH,10.4088/JCP.08m04200gre
-14307,Recurrence of MDD: a prospective study of personality pathology and cognitive distortions.,81.11,0.1593,62,cognitive,2Z72I6DZ,10.1037/a0020456
-16656,Predicting recurrence of major depressive disorder in young adults: a prospective study.,83.11,0.1632,62,cognitive,SZASCKDE,NA
-16655,Predicting recurrence of major depressive disorder in young adults: An 18-month prospective study.,83.47,0.1639,62,cognitive,474EHINZ,NA
-3364,Investigating associations between cortisol and cognitive reactivity to sad mood provocation and the prediction of relapse in remitted major depression.,83.5,0.164,62,behavior,SP2HFQR2,10.1016/j.ajp.2008.09.006
-33993,Severity and comorbidity predict episode duration and recurrence of DSM-IV major depressive disorder.,84.48,0.1659,62,personality,6SHZNRNV,NA
-31194,Recurrence of major depressive disorder and its predictors in the general population: results from the Netherlands Mental Health Survey and Incidence Study (NEMESIS).,84.97,0.1669,62,personality,WP4DWLKK,10.1017/S0033291712002395
-16740,Relapse after cognitive behavior therapy of depression: Potential implications for longer courses of treatment.,88.32,0.1734,62,cognitive,4HXV5EQM,NA
-15525,Rumination as a predictor of relapse in mindfulness-based cognitive therapy for depression.,92.61,0.1819,62,cognitive,G8QG2DNF,10.1348/147608310X520166
-16816,Modeling relapse in unipolar depression: the effects of dysfunctional cognitions and personality disorders.,93.6,0.1838,62,cognitive,WXCPR7J8,NA
-15001,Long-term outcome of major depressive disorder in psychiatric patients is variable.,95.68,0.1879,62,cognitive,VMES294C,NA
-14682,Prediction of recurrence in recurrent depression and the influence of consecutive episodes on vulnerability for depression: a 2-year prospective study.,99.19,0.1948,62,cognitive,XNH9A4ET,NA
-12965,Factors predicting the long-term illness course in a cohort of depressed inpatients.,99.31,0.195,62,cognitive,WAMN8PCN,10.1007/s00406-012-0379-7
-14679,Prediction of recurrence in recurrent depression: A 5.5-year prospective study,99.55,0.1955,62,cognitive,3KYMUBBV,10.4088/JCP.08m04858blu
-50936,Multiple risk factors predict recurrence of major depressive disorder in women,104.68,0.2056,62,missing,GTYLP2D6,10.1016/j.jad.2015.03.045
-14067,Personality and cognitive vulnerability in remitted recurrently depressed patients.,111.66,0.2193,62,cognitive,F2ZJXWIX,10.1016/j.jad.2014.10.042
-31387,Temperament and character as predictors of recurrence in remitted patients with major depression: a 4-year prospective follow-up study.,113.11,0.2221,62,personality,X7L647BT,10.1016/j.psychres.2014.12.017
-17266,"Cognitive Vulnerability, Lifetime Risk, and the Recurrence of Major Depression in Graduate Students.",123.84,0.2432,62,cognitive,5HWKK3YB,NA
-50934,Prediction of the three-year course of recurrent depression in primary care patients: Different risk factors for different outcomes,124.56,0.2446,62,missing,4FARZIFW,10.1016/j.jad.2007.04.017
-47740,Prevention of Relapse/Recurrence in Major Depressive Disorder With Either Mindfulness-Based Cognitive Therapy or Cognitive Therapy,129.35,0.254,62,additional,5MRL6GQS,10.1037/ccp0000266
-18297,Psychosocial predictors of the short-term course and outcome of major depression: A longitudinal study of a nonclinical sample with recent-onset episodes.,135.42,0.2659,62,cognitive,JN887WXS,NA
-18612,Relationship of posttreatment decentering and cognitive reactivity to relapse in major depression.,140.5,0.2759,62,cognitive,R9DLJLP7,10.1037/0022-006X.75.3.447
-11768,Differential predictors of response to preventive cognitive therapy in recurrent depression: a 2-year prospective study.,189.63,0.3724,62,cognitive,XLUBYWNU,10.1159/000092893
-3108,Clinical factors associated with relapse in primary care patients with chronic or recurrent depression.,191.63,0.3763,62,behavior,EWILQGGR,10.1016/j.jad.2006.10.023
-50419,Cognitive and affective trait and state factors influencing the long-term symptom course in remitted depressed patients,201.23,0.3951,62,additional,LKYETG4X,10.1371/journal.pone.0178759
-10995,An evaluation of an integrated model of relapse in depression.,211.34,0.415,62,cognitive,2SBHSG6Y,10.1016/j.jad.2009.11.015
-31792,Eighteen months of drug treatment for depression: predicting relapse and recovery.,232.79,0.4571,62,personality,QZ7VCZGG,10.1016/j.jad.2008.08.002
-8164,Predictors of Depressive Relapse During a Two Year Prospective Follow-up after Cognitive and Behavioral Therapies.,243.95,0.4791,62,behavior,CLRX7Z9K,NA
-4544,Predictors of longitudinal outcomes after unstable response to acute-phase cognitive therapy for major depressive disorder.,280.89,0.5516,62,behavior,THUUWIKJ,NA
-50614,Initial Steps to inform selection of continuation cognitive therapy or fluoxetine for higher risk responders to cognitive therapy for recurrent major depressive disorder,285.39,0.5604,62,additional,ESDSJLZY,10.1016/j.psychres.2017.03.032
-10525,"Moderators of continuation phase cognitive therapy's effects on relapse, recurrence, remission, and recovery from depression.",288.9,0.5673,62,cognitive,UDJBFIDI,10.1016/j.brat.2010.01.006
-18077,How does cognitive therapy prevent relapse in residual depression? Evidence from a controlled trial.,296.11,0.5815,62,cognitive,2AZSPKAH,NA
-17930,"Dependency, matching adversities, length of survival and relapse in major depression.",301.66,0.5924,62,cognitive,AIY8LSHA,NA
-12171,Improved cognitive content endures for 2 years among unstable responders to acute-phase cognitive therapy for recurrent major depressive disorder.,303.16,0.5953,62,cognitive,VIPWWVAK,10.1017/S0033291715001191
-12719,Patients' competence in and performance of cognitive therapy skills: relation to the reduction of relapse risk following treatment for depression.,304.52,0.598,62,cognitive,3U78QIU4,10.1037/0022-006X.75.4.523
-16985,Extreme response style in recurrent and chronically depressed patients: change with antidepressant administration and stability during continuation treatment.,346.02,0.6795,62,cognitive,2MY5I4VV,10.1037/0022-006X.75.1.145
-29968,Personality and clinical predictors of recurrence of depression.,348.77,0.6849,62,personality,BBB3EWKW,10.1176/ps.50.3.376
-33776,Personality and outcome in depression: an 18-month prospective follow-up study.,350.94,0.6891,62,personality,NS8IIAUK,NA
-50061,Practice of therapy acquired regulatory skills and depressive relapse/recurrence prophylaxis following cognitive therapy or mindfulness based cognitive therapy,366.06,0.7188,62,additional,LPXXDQJT,10/ghbp29
-50935,Negative Self-Referential Processing Predicts the Recurrence of Major Depressive Episodes,397.98,0.7815,62,missing,J6YHQ5IN,10.1177/2167702616654898
-31648,Personality and social support as predictors of first and recurrent episodes of depression.,475.95,0.9346,62,personality,LUHSYTDF,10.1016/j.jad.2015.09.020
-50242,Repetitive negative thinking as a predictor of depression and anxiety: A longitudinal cohort study,495.19,0.9724,62,additional,Y7EH4ZIC,10.1016/j.jad.2018.08.037
-30274,Positive and negative life events and personality traits in predicting course of depression and anxiety.,511.65,1.0047,62,personality,7BGWZTMX,10.1111/j.1600-0447.2011.01753.x
-18400,Comparing chronic interpersonal and noninterpersonal stress domains as predictors of depression recurrence in emerging adults.,577,1.1331,62,cognitive,KFHYW2QB,NA
-14717,Extreme response style and symptom return after depression treatment: The role of positive extreme responding.,613.77,1.2053,62,cognitive,DX4Y69R6,NA
-16393,Cognitive and life stress predictors of relapse in remitted unipolar depressed patients: test of the congruency hypothesis.,648.05,1.2726,62,cognitive,2DVKT87D,NA
-12412,"Vulnerability before, during, and after a major depressive episode: a 3-wave population-based study.",763.89,1.5001,62,cognitive,KYPB9HTF,10.1001/archpsyc.61.10.990
-22478,"Is Experiential Avoidance a Mediating, Moderating, Independent, Overlapping, or Proxy Risk Factor in the Onset, Relapse and Maintenance of Depressive Disorders?",841.15,1.6518,62,cognitive_additional,AIMEREX6,10.1007/s10608-015-9747-8
-14386,Metacognitive awareness and prevention of relapse in depression: empirical evidence.,906.55,1.7802,62,cognitive,GH8W9SYE,NA
-47412,Adult attachment predicts the seven-year course of recurrent depression in primary care,1308.11,2.5688,62,additional,4J6HHMRA,10.1016/j.jad.2017.08.009
-8173,Longitudinal follow-up of unipolar depressives: An investigation of predictors of relapse.,1632.69,3.2061,62,behavior,UHC7VM8L,NA
-38669,Clinical presentation and course of depression in youth: does onset in childhood differ from onset in adolescence?,1669.45,3.2783,62,psychodynamic,IYJSZWT9,10.1097/00004583-200401000-00015
-33857,"The influence of psychopathology, personality, and marital interaction on the short-term course of major depression.",1942.44,3.8144,62,personality,UF5F6JV6,NA
-32462,Immature dependence and self-criticism predict the recurrence of major depression.,3489.77,6.8529,62,personality,IXTYMFJG,10.1002/jclp.20263
-23786,The association between levels of cortisol secretion and fear perception in patients with remitted depression predicts recurrence,4082.48,8.0168,62,cognitive_additional,TCG4L3H4,10.1097/01.nmd.0000228502.52864.ce
-6786,Group treatment of depressed individuals: The coping with depression course.,4244.66,8.3353,62,behavior,UD87M8H3,NA
+row_in_brouwer_2019.csv,title,average_number_records_to_discovery,average_percentage_records_to_discovery,n_trials_discovered,search,key,doi
+47171,Dysfunctional attitudes or extreme response style as predictors of depressive relapse and recurrence after mobile cognitive therapy for recurrent depression,59.85,0.12,62,additional,3IACGM6K,10.1016/j.jad.2018.09.002
+12867,Cognitive Reactivity to Sad Mood Provocation and the Prediction of Depressive Relapse.,62.89,0.12,62,cognitive,7SLKGQRP,NA
+14781,Cognitive reactivity versus dysfunctional cognitions and the prediction of relapse in recurrent major depressive disorder.,63.19,0.12,62,cognitive,3IGAPUQP,10.4088/JCP.14m09268
+13242,"Cognitive reactivity, dysfunctional attitudes, and depressive relapse and recurrence in cognitive therapy responders.",65.56,0.13,62,cognitive,ML6MVTAB,10.1016/j.brat.2012.01.008
+18034,"Mood induced cognitive and emotional reactivity, life stress, and the prediction of depressive relapse.",69.48,0.14,62,cognitive,48ZCG8IC,10.1016/j.brat.2008.06.011
+18094,Differential cognitive response to a mood challenge following successful cognitive therapy or pharmacotherapy for unipolar depression.,69.85,0.14,62,cognitive,BTCTYAEG,NA
+26606,"Dysfunctional Attitudes and Episodes of Major Depression: Predictive Validity and Temporal Stability in Never-Depressed, Depressed, and Recovered Women",75.11,0.15,62,diathesis,GDLLVBIM,10.1037/0021-843X.116.3.475
+29498,Personality disorders predict relapse after remission from an episode of major depressive disorder: a 6-year prospective study.,80.32,0.16,62,personality,UNA2JESH,10.4088/JCP.08m04200gre
+14307,Recurrence of MDD: a prospective study of personality pathology and cognitive distortions.,81.11,0.16,62,cognitive,2Z72I6DZ,10.1037/a0020456
+16656,Predicting recurrence of major depressive disorder in young adults: a prospective study.,83.11,0.16,62,cognitive,SZASCKDE,NA
+16655,Predicting recurrence of major depressive disorder in young adults: An 18-month prospective study.,83.47,0.16,62,cognitive,474EHINZ,NA
+3364,Investigating associations between cortisol and cognitive reactivity to sad mood provocation and the prediction of relapse in remitted major depression.,83.5,0.16,62,behavior,SP2HFQR2,10.1016/j.ajp.2008.09.006
+33993,Severity and comorbidity predict episode duration and recurrence of DSM-IV major depressive disorder.,84.48,0.17,62,personality,6SHZNRNV,NA
+31194,Recurrence of major depressive disorder and its predictors in the general population: results from the Netherlands Mental Health Survey and Incidence Study (NEMESIS).,84.97,0.17,62,personality,WP4DWLKK,10.1017/S0033291712002395
+16740,Relapse after cognitive behavior therapy of depression: Potential implications for longer courses of treatment.,88.32,0.17,62,cognitive,4HXV5EQM,NA
+15525,Rumination as a predictor of relapse in mindfulness-based cognitive therapy for depression.,92.61,0.18,62,cognitive,G8QG2DNF,10.1348/147608310X520166
+16816,Modeling relapse in unipolar depression: the effects of dysfunctional cognitions and personality disorders.,93.6,0.18,62,cognitive,WXCPR7J8,NA
+15001,Long-term outcome of major depressive disorder in psychiatric patients is variable.,95.68,0.19,62,cognitive,VMES294C,NA
+14682,Prediction of recurrence in recurrent depression and the influence of consecutive episodes on vulnerability for depression: a 2-year prospective study.,99.19,0.19,62,cognitive,XNH9A4ET,NA
+12965,Factors predicting the long-term illness course in a cohort of depressed inpatients.,99.31,0.2,62,cognitive,WAMN8PCN,10.1007/s00406-012-0379-7
+14679,Prediction of recurrence in recurrent depression: A 5.5-year prospective study,99.55,0.2,62,cognitive,3KYMUBBV,10.4088/JCP.08m04858blu
+50936,Multiple risk factors predict recurrence of major depressive disorder in women,104.68,0.21,62,missing,GTYLP2D6,10.1016/j.jad.2015.03.045
+14067,Personality and cognitive vulnerability in remitted recurrently depressed patients.,111.66,0.22,62,cognitive,F2ZJXWIX,10.1016/j.jad.2014.10.042
+31387,Temperament and character as predictors of recurrence in remitted patients with major depression: a 4-year prospective follow-up study.,113.11,0.22,62,personality,X7L647BT,10.1016/j.psychres.2014.12.017
+17266,"Cognitive Vulnerability, Lifetime Risk, and the Recurrence of Major Depression in Graduate Students.",123.84,0.24,62,cognitive,5HWKK3YB,NA
+50934,Prediction of the three-year course of recurrent depression in primary care patients: Different risk factors for different outcomes,124.56,0.24,62,missing,4FARZIFW,10.1016/j.jad.2007.04.017
+47740,Prevention of Relapse/Recurrence in Major Depressive Disorder With Either Mindfulness-Based Cognitive Therapy or Cognitive Therapy,129.35,0.25,62,additional,5MRL6GQS,10.1037/ccp0000266
+18297,Psychosocial predictors of the short-term course and outcome of major depression: A longitudinal study of a nonclinical sample with recent-onset episodes.,135.42,0.27,62,cognitive,JN887WXS,NA
+18612,Relationship of posttreatment decentering and cognitive reactivity to relapse in major depression.,140.5,0.28,62,cognitive,R9DLJLP7,10.1037/0022-006X.75.3.447
+11768,Differential predictors of response to preventive cognitive therapy in recurrent depression: a 2-year prospective study.,189.63,0.37,62,cognitive,XLUBYWNU,10.1159/000092893
+3108,Clinical factors associated with relapse in primary care patients with chronic or recurrent depression.,191.63,0.38,62,behavior,EWILQGGR,10.1016/j.jad.2006.10.023
+50419,Cognitive and affective trait and state factors influencing the long-term symptom course in remitted depressed patients,201.23,0.4,62,additional,LKYETG4X,10.1371/journal.pone.0178759
+10995,An evaluation of an integrated model of relapse in depression.,211.34,0.42,62,cognitive,2SBHSG6Y,10.1016/j.jad.2009.11.015
+31792,Eighteen months of drug treatment for depression: predicting relapse and recovery.,232.79,0.46,62,personality,QZ7VCZGG,10.1016/j.jad.2008.08.002
+8164,Predictors of Depressive Relapse During a Two Year Prospective Follow-up after Cognitive and Behavioral Therapies.,243.95,0.48,62,behavior,CLRX7Z9K,NA
+4544,Predictors of longitudinal outcomes after unstable response to acute-phase cognitive therapy for major depressive disorder.,280.89,0.55,62,behavior,THUUWIKJ,NA
+50614,Initial Steps to inform selection of continuation cognitive therapy or fluoxetine for higher risk responders to cognitive therapy for recurrent major depressive disorder,285.39,0.56,62,additional,ESDSJLZY,10.1016/j.psychres.2017.03.032
+10525,"Moderators of continuation phase cognitive therapy's effects on relapse, recurrence, remission, and recovery from depression.",288.9,0.57,62,cognitive,UDJBFIDI,10.1016/j.brat.2010.01.006
+18077,How does cognitive therapy prevent relapse in residual depression? Evidence from a controlled trial.,296.11,0.58,62,cognitive,2AZSPKAH,NA
+17930,"Dependency, matching adversities, length of survival and relapse in major depression.",301.66,0.59,62,cognitive,AIY8LSHA,NA
+12171,Improved cognitive content endures for 2 years among unstable responders to acute-phase cognitive therapy for recurrent major depressive disorder.,303.16,0.6,62,cognitive,VIPWWVAK,10.1017/S0033291715001191
+12719,Patients' competence in and performance of cognitive therapy skills: relation to the reduction of relapse risk following treatment for depression.,304.52,0.6,62,cognitive,3U78QIU4,10.1037/0022-006X.75.4.523
+16985,Extreme response style in recurrent and chronically depressed patients: change with antidepressant administration and stability during continuation treatment.,346.02,0.68,62,cognitive,2MY5I4VV,10.1037/0022-006X.75.1.145
+29968,Personality and clinical predictors of recurrence of depression.,348.77,0.68,62,personality,BBB3EWKW,10.1176/ps.50.3.376
+33776,Personality and outcome in depression: an 18-month prospective follow-up study.,350.94,0.69,62,personality,NS8IIAUK,NA
+50061,Practice of therapy acquired regulatory skills and depressive relapse/recurrence prophylaxis following cognitive therapy or mindfulness based cognitive therapy,366.06,0.72,62,additional,LPXXDQJT,10/ghbp29
+50935,Negative Self-Referential Processing Predicts the Recurrence of Major Depressive Episodes,397.98,0.78,62,missing,J6YHQ5IN,10.1177/2167702616654898
+31648,Personality and social support as predictors of first and recurrent episodes of depression.,475.95,0.93,62,personality,LUHSYTDF,10.1016/j.jad.2015.09.020
+50242,Repetitive negative thinking as a predictor of depression and anxiety: A longitudinal cohort study,495.19,0.97,62,additional,Y7EH4ZIC,10.1016/j.jad.2018.08.037
+30274,Positive and negative life events and personality traits in predicting course of depression and anxiety.,511.65,1,62,personality,7BGWZTMX,10.1111/j.1600-0447.2011.01753.x
+18400,Comparing chronic interpersonal and noninterpersonal stress domains as predictors of depression recurrence in emerging adults.,577,1.13,62,cognitive,KFHYW2QB,NA
+14717,Extreme response style and symptom return after depression treatment: The role of positive extreme responding.,613.77,1.21,62,cognitive,DX4Y69R6,NA
+16393,Cognitive and life stress predictors of relapse in remitted unipolar depressed patients: test of the congruency hypothesis.,648.05,1.27,62,cognitive,2DVKT87D,NA
+12412,"Vulnerability before, during, and after a major depressive episode: a 3-wave population-based study.",763.89,1.5,62,cognitive,KYPB9HTF,10.1001/archpsyc.61.10.990
+22478,"Is Experiential Avoidance a Mediating, Moderating, Independent, Overlapping, or Proxy Risk Factor in the Onset, Relapse and Maintenance of Depressive Disorders?",841.15,1.65,62,cognitive_additional,AIMEREX6,10.1007/s10608-015-9747-8
+14386,Metacognitive awareness and prevention of relapse in depression: empirical evidence.,906.55,1.78,62,cognitive,GH8W9SYE,NA
+47412,Adult attachment predicts the seven-year course of recurrent depression in primary care,1308.11,2.57,62,additional,4J6HHMRA,10.1016/j.jad.2017.08.009
+8173,Longitudinal follow-up of unipolar depressives: An investigation of predictors of relapse.,1632.69,3.21,62,behavior,UHC7VM8L,NA
+38669,Clinical presentation and course of depression in youth: does onset in childhood differ from onset in adolescence?,1669.45,3.28,62,psychodynamic,IYJSZWT9,10.1097/00004583-200401000-00015
+33857,"The influence of psychopathology, personality, and marital interaction on the short-term course of major depression.",1942.44,3.81,62,personality,UF5F6JV6,NA
+32462,Immature dependence and self-criticism predict the recurrence of major depression.,3489.77,6.85,62,personality,IXTYMFJG,10.1002/jclp.20263
+23786,The association between levels of cortisol secretion and fear perception in patients with remitted depression predicts recurrence,4082.48,8.02,62,cognitive_additional,TCG4L3H4,10.1097/01.nmd.0000228502.52864.ce
+6786,Group treatment of depressed individuals: The coping with depression course.,4244.66,8.34,62,behavior,UD87M8H3,NA
