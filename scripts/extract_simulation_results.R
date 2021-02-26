@@ -196,7 +196,7 @@ recall_plot + # adding more ticks to the x-axis
 # print time to discovery table table (row numbers start at 1)
 td_table <- td_table %>%
   mutate(
-    time_to_discovery = round(time_to_discovery, 2),
+    time_to_discovery = round(time_to_discovery, 4),
     average_n_papers_to_discovery = round(average_n_papers_to_discovery, 2)) %>%
   rename(
     average_number_records_to_discovery = average_n_papers_to_discovery,
