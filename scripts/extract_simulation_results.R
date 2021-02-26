@@ -5,6 +5,8 @@ library(glue)
 library(knitr)
 library(asreview)
 library(readr)
+library(kableExtra)
+
 # datasets 
 datasets <- list.dirs(
   "output", recursive = FALSE, full.names = FALSE)
@@ -141,7 +143,7 @@ td_table <- left_join(
   ) %>%
   mutate(
     row_in_brouwer_2019.csv = record_id+1,
-    time_to_discoovery = time_to_discovery*100) %>%
+    time_to_discovery = time_to_discovery*100) %>%
   select(-record_id,
          -n_papers_screened)
 
