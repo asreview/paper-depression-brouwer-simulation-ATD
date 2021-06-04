@@ -1,5 +1,6 @@
-# Scripts for simulation study on depression data
-This repository contains the scripts for a simulation study performed on data from the systematic review by [Brouwer et al. (2019)](https://doi.org/10.1016/j.cpr.2019.101773).
+# Scripts for simulation study on obtaining average time to discovery 
+
+This repository contains the scripts for a simulation study performed on data from the systematic review by [Brouwer et al. (2019)](https://doi.org/10.1016/j.cpr.2019.101773). T
 
 The simulation study has the following characteristics:
 
@@ -41,8 +42,6 @@ The output (in the folder `output/brouwer_2019`) consists of
 - A table with WSS and RRF values for every run - the `wss_and_rrf_values.csv` file;
 - A plot with recall curves for all runs of this simulation study - the `recall.png` file.
 
-# License
-This repository has an MIT license.
 
 # References
 Brouwer, M. E., Williams, A. D., Kennis, M., Fu, Z., Klein, N. S., Cuijpers,
