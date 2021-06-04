@@ -1,5 +1,5 @@
 # Scripts for simulation study on depression data
-This repository contains the scripts for a simulation study performed on data from the systematic review by Brouwer et al. (2019).
+This repository contains the scripts for a simulation study performed on data from the systematic review by [Brouwer et al. (2019)](https://doi.org/10.1016/j.cpr.2019.101773).
 
 The simulation study has the following characteristics:
 
@@ -8,13 +8,8 @@ The simulation study has the following characteristics:
 - The prior inclusion is different for every run, e.g. all inclusions in the data are used as a prior inclusion once;
 - The 10 prior exclusions are the same for every run, and they are randomly sampled from the dataset.
 
-The systematic review data used for this study can be found on the Open Science Framework:
+The systematic review data used for this study can be found on the Open Science Framework: https://osf.io/r45yz/
 
-[ADD REFERENCE WITH DOI TO https://osf.io/r45yz/]
-
-As well as the results of this simulation study:
-
-[ADD REFERENCE WITH DOI TO OUTPUT on https://osf.io/pb28m/]
 
 ## Execute simulation study
 To reproduce the results presented in this study, run the following in your
