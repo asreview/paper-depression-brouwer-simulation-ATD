@@ -148,6 +148,12 @@ td_table <- left_join(
          -n_papers_screened)
 
 ## ----plot recall curve-------------------------------------------------------------------------------------------
+# Homemade color scheme for ASReview
+colors <- c( "Recall" = "#003CA3", #dark blue
+             "Random" = "#63686D", #grey
+             "WSS" = "#ffcc00")  #Asreview orange
+
+
 recall_plot <- recall %>%
   ggplot(aes(iteration, n_inclusions, group = trial)) +
   # Recall
