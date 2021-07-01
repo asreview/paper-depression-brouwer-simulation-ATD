@@ -3,17 +3,27 @@
 	"title": "Scripts and Ouptut for the Simulation Study Determining the Average Time to Discovery for the Depression Data",
 	"creators": [{
 			"name": "Ferdinands, Gerbrich",
-			"affiliation": "Utrecht University",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
 			"orcid": "0000-0002-4998-3293"
 		},
 		{
 			"name": "De Bruin, Jonathan",
-			"affiliation": "Utrecht University",
+			"affiliation": "Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands",
 			"orcid": "0000-0002-4297-0502"
 		},
 		{
+			"name": "Brouwer, Marlies",
+			"affiliation": "Department of Psychiatry, Amsterdam University Medical Centres, location AMC, University of Amsterdam, Amsterdam, the Netherlands & Department of Clinical Psychology, Utrecht University, Utrecht, the Netherlands",
+			"orcid": "0000-0002-9972-9058"
+		},
+		{
+			"name": "Bockting, Claudi",
+			"affiliation": "Department of Psychiatry, Amsterdam University Medical Centres, location AMC, University of Amsterdam, Amsterdam, the Netherlands & Institute for Advanced Study, University of Amsterdam, Netherlands Institute for Advanced Study in the Humanities and Social Sciences, Royal Netherlands Academy of Arts and Sciences, Amsterdam, the Netherlands",
+			"orcid": "0000-0002-9220-9244"
+		},
+		{
 			"name": "Van de Schoot, Rens",
-			"affiliation": "Department of Psychology, Utrecht University",
+			"affiliation": "Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, Utrecht, the Netherlands",
 			"orcid": "0000-0001-7736-2091"
 		}
 	],
