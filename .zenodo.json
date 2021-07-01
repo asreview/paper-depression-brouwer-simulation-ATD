@@ -1,0 +1,38 @@
+{
+	"description": "This repository contains the scripts for a simulation study performed on data from the systematic review by Brouwer et al. (2019). The goal was to obtain the average time to discovery for each relecant paper. The simulation study has the following characteristics: The number of runs is equal to the number of inclusions in the dataset; Every run starts with 1 prior inclusion and 10 prior exclusions; The prior inclusion is different for every run, e.g. all inclusions in the data are used as a prior inclusion once; The 10 prior exclusions are the same for every run, and they are randomly sampled from the dataset. The output is a file with all inclusions ordered by their time to discovery.",
+	"title": "Scripts and Ouptut for the Simulation Study Determining the Average Time to Discovery for the Depression Data",
+	"creators": [{
+			"name": "Ferdinands, Gerbrich",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0002-4998-3293"
+		},
+		{
+			"name": "De Bruin, Jonathan",
+			"affiliation": "Utrecht University",
+			"orcid": "0000-0002-4297-0502"
+		},
+		{
+			"name": "Van de Schoot, Rens",
+			"affiliation": "Department of Psychology, Utrecht University",
+			"orcid": "0000-0001-7736-2091"
+		}
+	],
+	"keywords": [
+		"systematic review",
+		"simulation study",
+		"average time to discovery",
+		"active learning",
+		"statistics",
+		"machine learning",
+		"text data",
+		"natural language processing"
+	],
+	"related_identifiers": [
+		{
+			"relation": "isSupplementTo",
+		 	"identifier": "https://osf.io/r45yz/"
+		}
+	],
+	"license": "Apache-2.0",
+	"upload_type": "software"
+}
