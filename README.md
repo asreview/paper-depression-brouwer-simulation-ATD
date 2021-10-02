@@ -10,7 +10,7 @@ The simulation study has the following characteristics:
 - The 10 prior exclusions are the same for every run, and they are randomly sampled from the dataset.
 
 
-##Installation
+## Installation
 
 The scripts in this repository require Python 3.6+. Install the extra dependencies with (in the command line):
 
@@ -19,7 +19,7 @@ The scripts in this repository require Python 3.6+. Install the extra dependenci
 pip install requirements.txt
 ```
 
-##Data
+## Data
 
 The systematic review data used for this study can be found on the [Open
 Science Framework](https://osf.io/r45yz/). Download the file
