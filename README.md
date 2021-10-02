@@ -12,11 +12,12 @@ The simulation study has the following characteristics:
 
 ## Installation
 
-The scripts in this repository require Python 3.6+. Install the extra dependencies with (in the command line):
+The scripts in this repository require Python 3.6+ and R. Install the dependencies with (in the command line):
 
 ```
 # install required software (such as ASReview)
 pip install requirements.txt
+Rscript install.R
 ```
 
 ## Data
@@ -38,12 +39,7 @@ sh run_all.sh
 
 ## Extract results 
 
-First, install the required R-packages by executing the
-following in your CLI: `Rscript scripts/install.R`.
-If you run into any errors, open the `install.R` file and try to install
-the packages manually.
-
-Next, you can extract the results from the simulation output by executing the
+Extract the results from the simulation output by executing the
 following in your CLI:
 
 ```
