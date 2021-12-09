@@ -150,7 +150,7 @@ td_table <- left_join(
 ## ----plot recall curve-------------------------------------------------------------------------------------------
 # Homemade color scheme for ASReview
 colors <- c( "Recall" = "#003CA3", #dark blue
-             "Random" = "#63686D", #grey
+             "Inclusion" = "#FF0000", #red
              "WSS" = "#ffcc00")  #Asreview orange
 
 
@@ -163,11 +163,7 @@ recall_plot <- recall %>%
     alpha = 0.8,
     key_glyph = "rect"
   ) +
-  # Random line
-  geom_line(
-    aes(x = iteration, y = random, color = "Random"),
-    size = .3,
-    key_glyph = "rect"
+  geom_hline(aes(yintercept = n_inclusions)
   ) +
   # WSS line
   geom_vline(
@@ -192,9 +188,7 @@ recall_plot <- recall %>%
        y = "Relevant records found")
 
 recall_plot + # adding more ticks to the x-axis
-  labs(title = glue("Simulation of screening the {data_name} dataset"), 
-       subtitle = glue("Searching a set of {n} papers for {nr} relevant ones"),
-       x = "Records read", 
+  labs(x = "Records read", 
        y = "Relevant records found") + 
   ggsave(glue(results_dir, "/recall.png"),
          height=6, width=8)
