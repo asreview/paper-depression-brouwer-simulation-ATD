@@ -5,7 +5,7 @@ set.seed(42)
 
 dataset <- list.files("data")
 data_name <- tools::file_path_sans_ext(dataset)
-dat <- read_csv(glue("data/{dataset}"))
+dat <- read_csv("data/brouwer_deduplicated.csv")
 
 # correct record_ids
 inclusions <-
@@ -35,7 +35,7 @@ ids <- data.frame(run = seq_along(indices),
 lines <- ids %>%
   mutate(
     command = glue(
-      "sh scripts/run_simulation.sh {data_name} {run} {incl_id} \"{excl_id}\" {seed}"
+      "sh scripts/run_simulation.sh {data_name} {run} {incl_id} \"{excl_id}\" {seed} --n_queries min"
       )
     )
 
