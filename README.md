@@ -24,7 +24,7 @@ Rscript install.R
 
 The systematic review data used for this study can be found on the [Open
 Science Framework](https://osf.io/r45yz/). Download the file
-`brouwer_2019.csv` and put it in the `/data` folder.
+`brouwer_deduplicated.csv` and put it in the `/data` folder.
 
 
 ## Execute simulation study
@@ -46,7 +46,7 @@ following in your CLI:
 Rscript scripts/extract_simulation_results.R
 ```
 
-The output (in the folder `output/brouwer_2019`) consists of
+The output (in the folder `output/`) consists of
 - All inclusions in the dataset, ordered by their time to discovery - the `time_to_discovery.csv` file. The column *row* corresponds to the position of the inclusion in the original dataset. Note that the position starts at 1;
 - A table with WSS and RRF values for every run - the `wss_and_rrf_values.csv` file;
 - A plot with recall curves for all runs of this simulation study - the `recall.png` file.
