@@ -29,13 +29,13 @@ exclusions <- sample(excl_indices-1,
 ids <- data.frame(run = seq_along(indices),
                   incl_id = indices-1,
                   excl_id = paste(exclusions, collapse = " "),
-                  seed = sample(1:100, 1))
+                  seed = 42)
 
 # script for generating simulation 
 lines <- ids %>%
   mutate(
     command = glue(
-      "sh scripts/run_simulation.sh {data_name} {run} {incl_id} \"{excl_id}\" {seed} --n_queries min"
+      "sh scripts/run_simulation.sh {data_name} {run} {incl_id} \"{excl_id}\" {seed}"
       )
     )
 
