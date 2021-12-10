@@ -144,7 +144,7 @@ td_table <- left_join(
 ## ----plot recall curve-------------------------------------------------------------------------------------------
 # Homemade color scheme for ASReview
 colors <- c( "Recall" = "#003CA3", #dark blue
-             "Inclusion" = "#FF0000", #red
+             "Inclusion" = "#63686D", #grey
              "WSS" = "#ffcc00")  #Asreview orange
 
 
