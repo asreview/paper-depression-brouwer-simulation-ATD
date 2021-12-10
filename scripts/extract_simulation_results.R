@@ -81,12 +81,6 @@ wssat <- 95
 rrfat <- 10
 
 ## ----prepare information for plot--------------------------------------------------------------------------------
-# add random line 
-recall <- recall %>%
-  group_by(trial) %>%
-  mutate(random = random_performance(iteration, n_inclusions)) %>%
-  ungroup()
-
 # wss line coordinates
 wss_lines <- recall %>%
   group_by(trial) %>%
