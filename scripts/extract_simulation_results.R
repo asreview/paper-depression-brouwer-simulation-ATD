@@ -157,7 +157,8 @@ recall_plot <- recall %>%
     alpha = 0.8,
     key_glyph = "rect"
   ) +
-  geom_hline(aes(yintercept = n_inclusions)
+  geom_hline(
+    aes(yintercept = data_characteristics$n_incl, color = "Inclusion")
   ) +
   # WSS line
   geom_vline(
