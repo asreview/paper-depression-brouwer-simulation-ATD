@@ -171,7 +171,7 @@ recall_plot <- recall %>%
     values = colors,
     name = "",
     labels = c(
-      "Random",
+      glue("Max inclusions"),
       glue("Recall curve(s)"),
       glue("{wssat}% recall")
     )
