@@ -55,10 +55,10 @@ The output (in the folder `output/`) consists of
 # License
 The content in this repository is published under the MIT license.
 
-#Funding
+# Funding
 This project is funded by a grant from the Centre for Urban Mental Health, University of Amsterdam, The Netherlands
 
-#Contact
+# Contact
 For any questions or remarks, please send an email to the [ASReview-team](mailto:asreview@uu.nl) or [Marlies Brouwer](https://orcid.org/0000-0002-9972-9058).
 
 # References
