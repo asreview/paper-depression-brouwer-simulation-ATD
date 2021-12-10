@@ -3,9 +3,15 @@
 library(tidyverse)
 library(glue)
 library(knitr)
-library(asreview)
 library(readr)
 library(kableExtra)
+library(janitor)
+
+# load asreview report package
+source('scripts/asreview_report_metrics.R')
+source('scripts/asreview_report_data_statistics.R')
+source('scripts/asreview_report_preprocessing.R')
+source('scripts/asreview_report_recall_plots.R')
 
 # datasets 
 datasets <- list.dirs(
