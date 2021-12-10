@@ -87,12 +87,6 @@ wssat <- 95
 rrfat <- 10
 
 ## ----prepare information for plot--------------------------------------------------------------------------------
-# add random line 
-recall <- recall %>%
-  group_by(trial) %>%
-  mutate(random = random_performance(iteration, n_inclusions)) %>%
-  ungroup()
-
 # wss line coordinates
 wss_lines <- recall %>%
   group_by(trial) %>%
@@ -156,7 +150,7 @@ td_table <- left_join(
 ## ----plot recall curve-------------------------------------------------------------------------------------------
 # Homemade color scheme for ASReview
 colors <- c( "Recall" = "#003CA3", #dark blue
-             "Inclusion" = "#FF0000", #red
+             "Inclusion" = "#63686D", #grey
              "WSS" = "#ffcc00")  #Asreview orange
 
 
@@ -169,7 +163,8 @@ recall_plot <- recall %>%
     alpha = 0.8,
     key_glyph = "rect"
   ) +
-  geom_hline(aes(yintercept = n_inclusions)
+  geom_hline(
+    aes(yintercept = data_characteristics$n_incl, color = "Inclusion")
   ) +
   # WSS line
   geom_vline(
@@ -183,7 +178,7 @@ recall_plot <- recall %>%
     values = colors,
     name = "",
     labels = c(
-      "Random",
+      glue("Max inclusions"),
       glue("Recall curve(s)"),
       glue("{wssat}% recall")
     )
