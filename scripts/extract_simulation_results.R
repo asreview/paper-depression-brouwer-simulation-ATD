@@ -84,9 +84,15 @@ left_join(priors %>%
 ## ----------------------------------------------------------------------------------------------------------------
 # set wanted levels for metrics
 wssat <- 95
-rrfat <- 10
+rrfat <- 5
 
 ## ----prepare information for plot--------------------------------------------------------------------------------
+# add random line 
+recall <- recall %>%
+  group_by(trial) %>%
+  mutate(random = random_performance(iteration, n_inclusions)) %>%
+  ungroup()
+
 # wss line coordinates
 wss_lines <- recall %>%
   group_by(trial) %>%
@@ -101,7 +107,7 @@ wss_lines <- recall %>%
 
 
 ## ----metrics-----------------------------------------------------------------------------------------------------
-# compute WSS@95 and RRF@10 
+# compute WSS@95 and RRF@5 
 metrics <- recall %>%
   group_by(trial) %>%  
   arrange(iteration) %>%
@@ -153,7 +159,6 @@ colors <- c( "Recall" = "#003CA3", #dark blue
              "Inclusion" = "#63686D", #grey
              "WSS" = "#ffcc00")  #Asreview orange
 
-
 recall_plot <- recall %>%
   ggplot(aes(iteration, n_inclusions, group = trial)) +
   # Recall
@@ -193,6 +198,55 @@ recall_plot + # adding more ticks to the x-axis
        y = "Relevant records found") + 
   ggsave(glue(results_dir, "/recall.png"),
          height=6, width=8)
+
+## ----plot recall curve with random-------------------------------------------------------------------------------------------
+# Homemade color scheme for ASReview
+colors <- c( "Recall" = "#003CA3", #dark blue
+             "Random" = "#63686D", #grey
+             "WSS" = "#ffcc00")  #Asreview orange
+
+
+recall_plot <- recall %>%
+  ggplot(aes(iteration, n_inclusions, group = trial)) +
+  # Recall
+  geom_line(
+    aes(color = "Recall"),
+    size = .5,
+    alpha = 0.8,
+    key_glyph = "rect"
+  ) +
+  geom_line(
+    aes(x = iteration, y = random, color = "Random"),
+    size = .3,
+    key_glyph = "rect"
+  ) +
+  # WSS line
+  geom_vline(
+    aes(xintercept = x_absolute, color = "WSS"),
+    size = .7 ,
+    data = wss_lines,
+    key_glyph = "rect"
+  ) +
+  # Specify colors to be used
+  scale_color_manual(
+    values = colors,
+    name = "",
+    labels = c(
+      glue("Random Line"),
+      glue("Recall curve(s)"),
+      glue("{wssat}% recall")
+    )
+  ) +
+  theme_paper() +
+  scale_x_continuous(n.breaks = 6) +
+  labs(x = "Records read", 
+       y = "Relevant records found")
+
+recall_plot + # adding more ticks to the x-axis
+  labs(x = "Records read", 
+       y = "Relevant records found") + 
+  ggsave(glue(results_dir, "/recall_and_random.png"),
+         height=6, width=12)
 
 
 ## ----------------------------------------------------------------------------------------------------------------
