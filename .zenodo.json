@@ -46,6 +46,6 @@
 		 	"identifier": "https://doi.org/10.17605/OSF.IO/QRDWJ"
 		}		
 	],
-	"license": "Apache-2.0",
+	"license": "MIT",
 	"upload_type": "software"
 }
