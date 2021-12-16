@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/339765080.svg)](https://zenodo.org/badge/latestdoi/339765080)
+
 # Scripts for simulation study on obtaining average time to discovery 
 
 This repository contains the scripts for a simulation study performed on data from the systematic review by [Brouwer et al. (2019)](https://doi.org/10.1016/j.cpr.2019.101773).
